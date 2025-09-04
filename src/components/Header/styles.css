@@ -1,0 +1,11 @@
+.bottom-nav-icon-home.Mui-selected,
+.bottom-nav-icon-upload.Mui-selected,
+.bottom-nav-icon-profile.Mui-selected {
+    color: #141414 !important;
+}
+
+.bottom-nav-icon-upload,
+.bottom-nav-icon-profile,
+.bottom-nav-icon-home{
+    row-gap: 5px;
+}

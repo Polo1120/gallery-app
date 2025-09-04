@@ -1,0 +1,81 @@
+@import url('./assets/Icon/style.css');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.search-icon-button::before,
+.button-add-image::before,
+.bottom-nav-icon-home::before,
+.bottom-nav-icon-upload::before,
+.bottom-nav-icon-profile::before,
+.add-icon-button::before,
+.image-detail-location::before {
+  font-family: "icomoon";
+}
+
+
+.button-add-image::before,
+.add-icon-button::before {
+  content: "\e906";
+
+}
+.search-icon-button::before,
+.button-add-image::before,
+.image-detail-location::before,
+.bottom-nav-icon-upload::before,
+.bottom-nav-icon-profile::before,
+.bottom-nav-icon-home::before,
+.add-icon-button::before::before {
+  font-size: 24px;
+  color    : #141414;
+}
+
+
+.bottom-nav-icon-home::before {
+  content: "\e904";
+}
+
+.bottom-nav-icon-upload::before {
+  content: "\e903";
+}
+
+.bottom-nav-icon-profile::before {
+  content: "\e905";
+}
+
+.search-icon-button::before {
+  content: "\e901";
+}
+
+.image-detail-location::before {
+  content         : "\e909";
+  background-color: #F0F2F5;
+  height          : 40px;
+  width           : 40px;
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
+  border-radius   : 8px;
+}
+
+
+.gallery-image,
+.image-detail {
+  mix-blend-mode: multiply;
+}
+
+.gallery-link-item,
+.container-image-detail {
+  background: #f5f3ef;
+}

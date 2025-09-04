@@ -1,0 +1,33 @@
+.gallery-container {
+    display       : flex;
+    padding-inline: 16px;
+}
+
+.gallery-image {
+    width     : 100%;
+    height    : auto;
+    max-width : 173px;
+    max-height: 173px;
+    object-fit: contain;
+}
+
+
+.gallery-link-item {
+    display        : flex;
+    border-radius  : 8px;
+    justify-content: center;
+    overflow       : hidden;
+}
+
+
+@media screen and (min-width:1025px) {
+
+    .gallery-container {
+        padding-inline: 176px;
+    }
+
+    .gallery-image {
+        max-width : 400px;
+        max-height: 400px;
+    }
+}
