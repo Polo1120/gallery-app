@@ -1,4 +1,4 @@
-import { useAuth } from "../../context/AuthContext/AuthContext";
+import { useAuth } from "../../context/AuthContext/useAuth";
 
 
 function LogoutButton() {
